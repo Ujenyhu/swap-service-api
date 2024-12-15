@@ -1,23 +1,23 @@
 # Swap Service Api
-This is a Typescript microservice designed for token swaps on the Ethereum and Tron blockchain networks. 
+This is a microservice designed with Node.js, Typescript for token swaps on the Ethereum and Tron blockchain networks. 
  For production use and to ensure security, it is recommended to interact with this service via an API gateway.
 
 ## Features
 - **Swagger (OPEN API)**: Integrated for comprehensive API documentation and ease of debugging.
   
-- **Uniswap**: Relies on Uniswap’s contracts for swap interactions
+- **Uniswap and Sunswap**: Relies on Uniswap and Sunswap contracts for swap interactions
   
-- **Token Swap**: Users can swap tokens on Ethereum and tron testnet/mainet depending on the Uniswap's router contracts passed, simulating real-world token swap functionality.
+- **Token Swap**: Users can swap tokens on Ethereum and tron testnet/mainet depending on the Uniswap's or Sunswap's router contracts passed, simulating real-world token swap functionality.
   
 - **Testnet Compatibility**: Supports Sepolia testnets, ideal for development and testing without the need for real assets.
 
-NOTE: My background in C# has influenced my TypeScript style; I’ve implemented the repository pattern, which has facilitated a smoother transition for me into JavaScript development.
+NOTE: My background in C# has influenced my TypeScript style; I’ve implemented the repository pattern, which has facilitated a smoother transition for me into api development with Node.js .
 
 ## Table of Contents
-- [Installation](#installation)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Architecture](#architecture)
+- [Installation](#Installation)
+- [Setup](#Setup)
+- [Usage](#Usage)
+- [Architecture](#Architecture)
 - [Best Practices for Production](#best)
 
 ## Installation
