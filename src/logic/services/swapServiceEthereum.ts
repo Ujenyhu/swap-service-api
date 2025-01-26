@@ -28,10 +28,7 @@ export class swapServiceEthereum implements iSwapServiceEthereum {
     constructor() {
         
         //test net
-        this.provider = new ethers.JsonRpcProvider(`https://eth-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_PROJECT_ID}`);
-
-        //main net
-        //this.provider = new ethers.JsonRpcProvider(`https://eth-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_PROJECT_ID}`);      
+        this.provider = new ethers.JsonRpcProvider(`https://eth-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_PROJECT_ID}`);      
     }
 
     //Main method for swap 
